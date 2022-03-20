@@ -6,7 +6,7 @@
     <title>hCaptcha test website</title>
     <meta charset="utf-8">
     <script src="https://js.hcaptcha.com/1/api.js" async defer
-	var queryString = window.location.href.split('?token=')[1]
+	var queryString = window.location.href.split('?token=')[1];
 	document.getElementsByClassName('h-captcha')[0].attributes['data-sitekey'].nodeValue = queryString
     ></script>
     <link type="text/css" rel="stylesheet" href="styles.css">
